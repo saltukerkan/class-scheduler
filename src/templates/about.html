@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}About || {{ block.super }}{% endblock title %}
+
+{% block content %}
+<h1>About</h1>
+<div class="w3-content">
+<h2>About this project</h2>
+<p>
+	When the time came to choose classes among many alternative electives and even more sections, I always struggled to build the perfect schedule. So I decided to write a program to show me a list of possible schedules given the constraints (mandatory sections and such). Then I decided to take it to the next by including a user interface, and I wanted to get into web programming, so this project was born. 
+</br>
+	With this application you can select all the classes you have to take and add some electives, and you will be shown all the possible schedules. All you will have to do is select your favourite schedule and you will be given the CRN's you need to enter to your school's registeration system.
+</p>
+<h2>About me</h2>
+<p>
+	I am a student enrolled in a Dual-Diploma Program by Istanbul Technical University and Binghamton University. I am currently a senior majoring in Computer Science. You can access my <a href="https://saltukerkan.github.io">personal website here.</a>
+</p>
+</div>
+
+{% endblock content %}
